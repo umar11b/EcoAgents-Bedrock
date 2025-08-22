@@ -12,6 +12,14 @@ The focus is on **understanding the flow**: model → agent runtime → tool →
 
 ---
 
+## 🏗️ Architecture
+
+![EcoAgents Architecture](docs/images/architecture.png)
+
+_High-level architecture showing the dual-agent approach with Bedrock integration and fallback mechanisms._
+
+---
+
 ## 🛠️ Tech Stack
 
 - **Amazon Bedrock** (Claude 3 Haiku)
@@ -47,6 +55,8 @@ agentops-ecoagents/
   │  │  └─ wildfire.py
   │  └─ requirements.txt
   ├─ docs/
+  │  ├─ images/
+  │  │  └─ architecture.png  # Architecture diagram
   │  ├─ aws-setup.md        # AWS Bedrock configuration guide
   │  └─ workshop-notes.md
   └─ README.md
