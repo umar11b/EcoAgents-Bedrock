@@ -7,16 +7,19 @@ A simple environmental AI assistant using Amazon Bedrock AgentCore concepts. Thi
 ## Key Concepts Explored
 
 ### 1. Tool Integration
+
 - Created mock tools for environmental data
 - Wired tools to an agent runtime
 - Simple keyword-based routing (not LLM-based yet)
 
 ### 2. Mock-First Approach
+
 - All tools use mock data initially
 - Easy to test and develop without API keys
 - Can be replaced with real APIs later
 
 ### 3. FastAPI Integration
+
 - Simple REST API for testing
 - Health checks and tool listing
 - Easy local development
