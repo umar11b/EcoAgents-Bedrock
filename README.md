@@ -1,12 +1,8 @@
 # EcoAgents – Basic Case Study with Amazon Bedrock AgentCore
 
-> **One‑liner:** A simple case study to explore Amazon Bedrock AgentCore by creating an environmental assistant with basic mock tools.
-
----
-
 ## 📖 Purpose
 
-This project is designed as a **learning case study**. It follows the AWS HQ workshop on Bedrock AgentCore but keeps the scope small and approachable. Instead of general tools like a calculator, it introduces **simple environmental tools** to practice wiring Bedrock models to custom logic.
+This project is designed as a **learning case study**. It follows the AWS HQ workshop (AWS User Group Toronto - August 21, 2025) demonstration done by Jane Shen on Bedrock AgentCore but keeps the scope small and approachable. Instead of general tools like a calculator, it introduces **simple environmental tools** to practice wiring Bedrock models to custom logic.
 
 The focus is on **understanding the flow**: model → agent runtime → tool → response. We've implemented a **dual-agent approach** with Bedrock integration and fallback to keyword matching.
 
@@ -214,17 +210,3 @@ curl -X GET "http://localhost:8000/tools"
 # Test simple agent
 python test_agent.py
 ```
-
----
-
-## 🧭 Roadmap (Keep It Simple)
-
-- ✅ Add mock tools (air quality, emissions, wildfire)
-- ✅ Run locally with FastAPI
-- ✅ Integrated with AWS Bedrock Claude 3 Haiku
-- ✅ Dual-agent approach (Bedrock + fallback)
-- ✅ API endpoints with health checks
-- 🔜 Swap in one real dataset/API
-- 🔜 Add more sophisticated tool routing
-
----
